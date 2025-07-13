@@ -23,5 +23,5 @@ def remove_bg():
         download_name='no-bg.png'
     )
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
