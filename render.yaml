@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: background-remover-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
